@@ -1,0 +1,107 @@
+  *{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: #f0f5fa;
+    color: #1e2f3d;
+    line-height: 1.5;
+    padding: 2rem 1rem;
+    
+  }
+  
+ .landing-container {
+        margin: 0 auto;
+        background: white;
+        border-radius: 32px;
+        box-shadow: 0 20px 40px rgba(0, 35, 55, 0.15);
+        padding: 2.5rem;
+        }
+  h1 {
+        color: #0a4b66;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        border-left: 8px solid #1d7a9c;
+        padding-left: 1.5rem;
+
+  }
+  
+  
+  h2{
+   
+        color: #0b4f6c;
+        font-size: 2rem;
+        margin: 2rem 0 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid #11323f; /*линия*/
+        position: relative;
+  }
+  
+ 
+  .requirements-flow {
+      margin: 2rem 0;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+    }
+    .chain {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 2%  0.5%;
+    }
+    .chain-item {
+      flex: 0 1 auto;
+      min-width: 140px;
+      margin: 0.25rem 0;
+    }
+    .chain-item div {
+      background: #ffffff;
+      border: 2px solid #2c7da0;
+      border-radius: 16px;
+      padding: 1rem 1.2rem;
+      box-shadow: 0 4px 10px rgba(28, 110, 140, 0.1);
+      transition: all 0.25s ease-in-out;
+      text-align: center;
+      cursor: default;
+    }
+    .chain-item div:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 20px rgba(28, 110, 140, 0.25);
+      border-color: #1b5a79;
+      background: #f0f9ff;
+    }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    .chain-item p {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #0b2b40;
+    }
+    .chain-arrow {
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: #2c7da0;
+      line-height: 1;
+      user-select: none;
+      min-width: 30px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .template-card {
+      color: #0a4b66;
+      background-color: #afcfdc;
+    }
+
+    ul li {
+      margin: 2%;
+    }
+
+      ol li {
+      margin: 2%;
+    }
